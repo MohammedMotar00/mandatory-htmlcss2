@@ -3,18 +3,22 @@
     margin: 0px;
 }
 
-body {
+html, body {
     width: 100%;
     height: 100%;
     box-sizing: border-box;
     background-color: rgb(165, 165, 165);
 }
 
+
+/* började jobbet med headern */
+
 header {
     width: 100%;
     height: 100px;
     display: flex;
     background-color: rgb(53, 53, 148);
+    margin-bottom: 50px;
 }
 
 h1{
@@ -36,6 +40,28 @@ a {
     color: white;
 }
 
+/* avslutade jobbet med headern */
+
+
+
+
+/* påbörja bilderna */
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.items {
+    width: 220px;
+    margin: 20px;
+    flex: 1 0;
+}
+
+
+
 @media (max-width: 700px) {
     .links {
         display: none;
@@ -43,4 +69,5 @@ a {
     .title {
         margin: auto;
     }
+    
 }
